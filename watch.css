@@ -1,0 +1,111 @@
+/* body {
+    background-image: url("https://images.pexels.com/photos/915984/pexels-photo-915984.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-repeat: repeat-y;
+} */
+body, html{
+  height:100%;
+  margin:0;
+  font-size:16px;
+  font-family:'Cinzel Decorative', cursive;
+  font-weight:400;
+  line-height:1.8em;
+  /* color:yellow; */
+}
+
+.pimg1, .pimg2, .pimg3{
+  position:relative;
+  opacity:0.70;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  
+
+  /*
+    fixed = parallax
+    scroll = normal
+  */
+  background-attachment:fixed;
+}
+
+/* ---------------------ids------------------------ */
+#map{
+  background-image: url('./map.PNG');
+}
+
+#watch{
+  background-image: url('./watchgears.jpg');
+}
+#clock{
+  background-image: url('./clock.jpeg');
+}
+
+#grandfather{
+  background-image: url('./grandfatherclock.jpeg');
+}
+
+#battery{
+  background-image: url('./battery.jpeg');
+}
+/* ---------------------ids------------------------ */
+.pimg1{
+  background-image:url('./shop.gif');
+  min-height:100%;
+  }
+
+.pimg2{
+  background-image:url('./watchband.jpeg');
+  min-height:400px;
+}
+
+.pimg3{
+  background-image:url('./shop.gif');
+  min-height:400px;
+}
+
+.section{
+  text-align:center;
+  padding:50px 80px;
+}
+
+.section-light{
+  background-color:#282e34;
+  color: white;
+}
+
+.section-dark{
+  background-color:#282e34;
+  color:white;
+}
+
+.ptext{
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align:center;
+  color:#000;
+  font-size:47px;
+  letter-spacing:8px;
+  text-transform:uppercase;
+  text-shadow: 2px 2px black;
+}
+
+.ptext .border{
+  background-color:#111;
+  color:#fff;
+  padding:8px;
+
+}
+
+.ptext .border.trans{
+  background-color:transparent;
+}
+
+@media(max-width:568px){
+  .pimg1, .pimg2, .pimg3{
+    background-attachment:scroll;
+  }
+}
+
+h2 {
+  font-family: 'Cinzel Decorative', cursive;
+}
