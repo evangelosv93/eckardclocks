@@ -1,7 +1,3 @@
-/* body {
-    background-image: url("https://images.pexels.com/photos/915984/pexels-photo-915984.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-    background-repeat: repeat-y;
-} */
 body, html{
   height:100%;
   margin:0;
@@ -14,11 +10,11 @@ body, html{
 
 .pimg1, .pimg2, .pimg3{
   position:relative;
-  opacity:0.70;
+  opacity:0.90;
   background-position:center;
   background-size:cover;
   background-repeat:no-repeat;
-  
+  line-height: 70px;
 
   /*
     fixed = parallax
@@ -48,7 +44,7 @@ body, html{
 }
 /* ---------------------ids------------------------ */
 .pimg1{
-  background-image:url('./shop.gif');
+  background-image:url('./topback.jpeg');
   min-height:100%;
   }
 
@@ -70,11 +66,15 @@ body, html{
 .section-light{
   background-color:#282e34;
   color: white;
+  font-size: 29px;
+  line-height: 70px;
 }
 
 .section-dark{
   background-color:#282e34;
   color:white;
+  font-size: 27px;
+  line-height: 50px;
 }
 
 .ptext{
